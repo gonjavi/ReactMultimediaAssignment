@@ -9,7 +9,7 @@ class Audio extends Component {
         <h3 className="center">Audio:</h3>
         <div className="row">
         <ReactAudioPlayer
-          className="col l8 offset-l2"
+          className="col l8 offset-l2 card-panel hoverable"
           src={audio}
           controls
         />
