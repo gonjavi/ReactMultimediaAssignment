@@ -4,16 +4,17 @@ import ArticuloPublicitario from './components/ArticuloPublicitario';
 import ArticuloTecnologia from './components/ArticuloTecnologia';
 import Footer from './components/Footer';
 import Video from './components/Video';
+import Audio from './components/Audio';
 
 function App() {
   return (
     <div className="App">
-     <NavBar />
-     <ArticuloPublicitario />
-     <ArticuloTecnologia />
-
+      <NavBar />
+      <ArticuloPublicitario />
+      <ArticuloTecnologia />
+      <Audio />
       <Video />
-     <Footer />
+      <Footer />
     </div>
   );
 }

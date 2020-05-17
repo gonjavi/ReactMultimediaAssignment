@@ -9,7 +9,7 @@ class Video extends Component {
         <h3 className="center">Video:</h3>
         <div className="row">
           <Player 
-          className="col l8 offset-l2"
+            className="col l8 offset-l2"
             playsInline
             src={video}
           />
