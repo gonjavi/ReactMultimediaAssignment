@@ -10,6 +10,9 @@ class Video extends Component {
         <div className="row">
           <Player 
             className="col l8 offset-l2 card-panel hoverable"
+            width={630} 
+            height={450}
+            fluid={false}
             playsInline
             src={video}
           />
