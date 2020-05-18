@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Player } from 'video-react';
 import  video from '../media/video.mp4';
-import MediaQuery from 'react-responsive'
 
 class Video extends Component {
 
