@@ -11,7 +11,7 @@ class ArticuloPublicitario extends Component {
           <h5 className="col l8 offset-l2 card-panel hoverable">Las incripciones se encuentran abiertas a nivel nacional, si deseas información llama el numero: 018000-115223 </h5>
         </div>
         <div className="row">
-          <img src={img1} alt="unad" width="60" className="col l8 offset-l2 card-panel hoverable" /> 
+          <img src={img1} alt="unad" width="60" className="col l8 offset-l2 s12 card-panel hoverable" /> 
         </div>
       </div>
     )

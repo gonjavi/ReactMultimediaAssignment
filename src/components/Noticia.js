@@ -7,7 +7,7 @@ class Noticia extends Component {
     return (
       <div className="container">
         <div className="row">
-          <div className="col l8 offset-l2 card-panel hoverable">
+          <div className="col l8 offset-l2 s12 card-panel hoverable">
              <TwitterTimelineEmbed
               sourceType="profile"
               screenName="UniversidadUNAD"
